@@ -105,3 +105,15 @@ body{
     font-weight: 500;
     font-family: "Cursed Timer ULiL", sans-serif;
 }
+
+@media(max-width:425px){
+    .frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30rem;
+        margin-top: 8rem;
+        flex-direction: column;
+    }
+
+}
