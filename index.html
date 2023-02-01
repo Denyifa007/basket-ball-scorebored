@@ -8,34 +8,36 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div>
+    <div class="container">
       <div class="head">
         <h2>BASKETBALL SCOREBOARD</h2>
       </div>
-      <div class="frame">
-      <div class="home">
-        <h1>HOME</h1>
-        <button id="home-btn">0</button>
-        <div class="operate">
-          <button class="homeadd-1">+1</button>
-          <button class="homeadd-2">+2</button>
-          <button class="homeadd-3">+3</button>
+      <div class="frame-div">
+        <div class="frame">
+          <div class="home">
+            <h1>HOME</h1>
+            <button id="home-btn">0</button>
+            <div class="operate">
+              <button class="homeadd-1">+1</button>
+              <button class="homeadd-2">+2</button>
+              <button class="homeadd-3">+3</button>
+            </div>
+          </div>
+    
+          <div class="guest">
+            <h1>GUEST</h1>
+            <button id="guest-btn">0</button>
+            <div class="operate">
+              <button class="guestadd-1">+1</button>
+              <button class="guestadd-2">+2</button>
+              <button class="guestadd-3">+3</button>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="guest">
-        <h1>GUEST</h1>
-        <button id="guest-btn">0</button>
-        <div class="operate">
-          <button class="guestadd-1">+1</button>
-          <button class="guestadd-2">+2</button>
-          <button class="guestadd-3">+3</button>
-        </div>
-      </div>
-    </div>
-    <div class="last-btn">
-      <button id="last">NEW GAME</button>
-    </div>  
+        <div class="last-btn">
+          <button id="last">NEW GAME</button>
+        </div> 
+      </div> 
     </div>
 
     <script src="./sandbox.js"></script>
