@@ -6,7 +6,9 @@
     overflow-x: hidden;
 }
 body, html{
-    background-color: #064D3B;
+    background-image: url('./images/nba.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
 }
@@ -18,10 +20,10 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #262626;
+    background: linear-gradient(red,white,blue);
     width: 100vw;
     height: 5rem;
-    color: white;
+    color: black;
     font-family: "Cursed Timer ULiL", sans-serif;
 
 }
@@ -80,9 +82,9 @@ body, html{
     width: 30px;
     height: 30px;
     margin-left: 4px;
-    background-color: #034D3B;
-    color: #6DE7B6;
-    border: 1px solid #6DE7B6;
+    background: linear-gradient(red,white,blue);
+    color: black;
+    /* border: 1px solid #6DE7B6; */
     border-radius: 4px;
     font-family: "Cursed Timer ULiL", sans-serif;
 }
@@ -102,11 +104,12 @@ body, html{
 #last{
     width: 7rem;
     height: 3rem;
-    background-color: #6DE7B5;
+    background: linear-gradient(red,white,blue);
     border-radius: 4px;
-    color: #167754;
+    color: black;
     border: none;
     font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: 15px;
 }
 #last:hover{
     background-color: white;
